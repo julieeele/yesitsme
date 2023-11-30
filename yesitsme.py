@@ -24,7 +24,7 @@ def banner():
     print("\n\tTwitter: " + Fore.MAGENTA + "@blackeko5")
 
 
-def getUserId(username, sessionsId):
+def getUserId(username, 30532196307%3AtoHtFdSUutwOnk%3A23%3AAYcF7YJwOwCOg1tu6HBKWX__UbILwPXOOcY0Xy1qqw):
     cookies = {'sessionid': sessionsId}
     headers = {'User-Agent': 'Instagram 64.0.0.14.96', }
     r = get('https://www.instagram.com/{}/?__a=1'.format(username),
@@ -242,3 +242,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
