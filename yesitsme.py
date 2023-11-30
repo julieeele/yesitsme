@@ -24,8 +24,8 @@ def banner():
     print("\n\tTwitter: " + Fore.MAGENTA + "@blackeko5")
 
 
-def getUserId(username, sessionsId):
-    cookies = {'sessionid': sessionsId}
+def getUserId(username, 30532196307%3AtoHtFdSUutwOnk%3A23%3AAYcF7YJwOwCOg1tu6HBKWX__UbILwPXOOcY0Xy1qqw):
+    cookies = {'30532196307%3AtoHtFdSUutwOnk%3A23%3AAYcF7YJwOwCOg1tu6HBKWX__UbILwPXOOcY0Xy1qqw': 30532196307%3AtoHtFdSUutwOnk%3A23%3AAYcF7YJwOwCOg1tu6HBKWX__UbILwPXOOcY0Xy1qqw}
     headers = {'User-Agent': 'Instagram 64.0.0.14.96', }
     r = get('https://www.instagram.com/{}/?__a=1'.format(username),
             headers=headers, cookies=cookies)
@@ -37,8 +37,8 @@ def getUserId(username, sessionsId):
         return({"id": None, "error": "User not found or rate limit"})
 
 
-def getInfo(username, sessionId):
-    userId = getUserId(username, sessionId)
+def getInfo(username, 30532196307%3AtoHtFdSUutwOnk%3A23%3AAYcF7YJwOwCOg1tu6HBKWX__UbILwPXOOcY0Xy1qqw):
+    userId = getUserId(username, 30532196307%3AtoHtFdSUutwOnk%3A23%3AAYcF7YJwOwCOg1tu6HBKWX__UbILwPXOOcY0Xy1qqw)
     if userId["error"] != None:
         return({"user": None, "error": "User not found or rate limit"})
     else:
@@ -109,21 +109,21 @@ def main():
     parser = argparse.ArgumentParser()
     required = parser.add_argument_group('required arguments')
     parser.add_argument('-s', '--sessionid',
-                        help="Instagram session ID", required=True)
+                        help="30532196307%3AtoHtFdSUutwOnk%3A23%3AAYcF7YJwOwCOg1tu6HBKWX__UbILwPXOOcY0Xy1qqw", required=True)
     parser.add_argument(
-        '-n', '--name', help="Target name & surname", required=True)
-    parser.add_argument('-e', '--email', help="Target email", required=True)
+        '-n', '--name', help="Kester Macgregor", required=True)
+    parser.add_argument('kestermacgregor76@gmail.com', '--email', help="Target email", required=True)
     parser.add_argument(
-        '-p', '--phone', help="Target phone number", required=True)
+        '-p', '--phone', help="-e/-p " "", required=True)
     parser.add_argument('-t', '--timeout',
                         help="Timeout between requests", required=False)
 
     args = parser.parse_args()
 
-    sessionsId = args.sessionid
-    name = args.name
-    email = args.email
-    phone = args.phone
+    sessionsId = args. 30532196307%3AtoHtFdSUutwOnk%3A23%3AAYcF7YJwOwCOg1tu6HBKWX__UbILwPXOOcY0Xy1qqw" "
+    name = args.Kester 
+    email = args.kestermacgregor76@gmail.com
+    phone = args.-e/-p
     timeout = args.timeout
 
     accounts = dumpor(name)
